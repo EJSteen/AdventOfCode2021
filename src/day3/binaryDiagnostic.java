@@ -2,7 +2,6 @@ package day3;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class binaryDiagnostic {
@@ -38,6 +37,7 @@ public class binaryDiagnostic {
                 stringEpsilon.append(0);
             }
         }
+
         int intGamma = Integer.parseInt(stringGamma.toString(),2);
         int intEpsilon = Integer.parseInt(stringEpsilon.toString(),2);
         System.out.println("answer: " + intGamma*intEpsilon);
