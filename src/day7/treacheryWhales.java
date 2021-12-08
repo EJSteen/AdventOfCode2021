@@ -12,7 +12,7 @@ public class treacheryWhales {
         String data = scanner.nextLine();
         int[] crabs = Arrays.stream(data.split(",")).mapToInt(Integer::parseInt).toArray();
         Arrays.sort(crabs);
-        
+
         System.out.println("part 1: " + part1(crabs));
         System.out.println("part 2: " + part2(crabs));
     }
